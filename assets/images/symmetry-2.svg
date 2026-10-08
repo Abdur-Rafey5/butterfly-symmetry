@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-label="Matching spots on both wings of a butterfly">
+  <rect width="500" height="360" fill="#1C1C1C"/>
+  <ellipse cx="155" cy="185" rx="115" ry="125" fill="#2b3d1a" stroke="#D4AF37"/>
+  <ellipse cx="345" cy="185" rx="115" ry="125" fill="#2b3d1a" stroke="#D4AF37"/>
+  <circle cx="120" cy="140" r="18" fill="#D4AF37"/>
+  <circle cx="380" cy="140" r="18" fill="#D4AF37"/>
+  <circle cx="145" cy="220" r="14" fill="#F0D77A"/>
+  <circle cx="355" cy="220" r="14" fill="#F0D77A"/>
+  <rect x="242" y="80" width="16" height="210" rx="8" fill="#222" stroke="#9C7A1E"/>
+  <text x="70" y="330" fill="#A8A8A8" font-family="Arial" font-size="15">same spots on both sides</text>
+</svg>

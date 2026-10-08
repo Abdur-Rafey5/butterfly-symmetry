@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-label="Colorful student butterfly design using reflection symmetry">
+  <rect width="600" height="520" fill="#141414"/>
+  <ellipse cx="175" cy="250" rx="155" ry="175" fill="#c45c12"/>
+  <ellipse cx="425" cy="250" rx="155" ry="175" fill="#c45c12"/>
+  <ellipse cx="175" cy="250" rx="85" ry="95" fill="#2e6bb0"/>
+  <ellipse cx="425" cy="250" rx="85" ry="95" fill="#2e6bb0"/>
+  <circle cx="120" cy="175" r="28" fill="#e8c547"/>
+  <circle cx="480" cy="175" r="28" fill="#e8c547"/>
+  <circle cx="150" cy="300" r="20" fill="#7d3aa8"/>
+  <circle cx="450" cy="300" r="20" fill="#7d3aa8"/>
+  <circle cx="200" cy="140" r="14" fill="#d94a6b"/>
+  <circle cx="400" cy="140" r="14" fill="#d94a6b"/>
+  <rect x="286" y="95" width="28" height="320" rx="14" fill="#222" stroke="#D4AF37"/>
+  <circle cx="300" cy="82" r="18" fill="#111" stroke="#D4AF37"/>
+  <line x1="286" y1="72" x2="250" y2="40" stroke="#F0D77A" stroke-width="3"/>
+  <line x1="314" y1="72" x2="350" y2="40" stroke="#F0D77A" stroke-width="3"/>
+  <line x1="300" y1="70" x2="300" y2="430" stroke="#F0D77A" stroke-width="2" stroke-dasharray="6 5"/>
+</svg>

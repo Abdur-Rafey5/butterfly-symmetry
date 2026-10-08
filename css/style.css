@@ -1,0 +1,256 @@
+:root {
+  --bg: #0A0A0A;
+  --bg-surface: #141414;
+  --bg-elevated: #1C1C1C;
+  --gold: #D4AF37;
+  --gold-light: #F0D77A;
+  --gold-dark: #9C7A1E;
+  --text: #EDEDED;
+  --text-muted: #A8A8A8;
+  --max: 960px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Lato, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--gold);
+}
+
+a:hover {
+  color: var(--gold-light);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--gold-dark);
+}
+
+.header-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0.7rem 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--gold);
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+}
+
+.nav-toggle {
+  display: none;
+  background: var(--bg-elevated);
+  color: var(--gold);
+  border: 1px solid var(--gold-dark);
+  padding: 0.4rem 0.7rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav-toggle:focus-visible,
+.site-nav a:focus-visible,
+.logo:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 2px;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--text);
+  padding-bottom: 0.15rem;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover {
+  color: var(--gold-light);
+}
+
+.site-nav a.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.4rem 1.1rem 2.4rem;
+}
+
+.page-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--gold);
+  margin: 0 0 1.1rem;
+  background: linear-gradient(90deg, #9C7A1E, #D4AF37, #F0D77A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero {
+  margin-bottom: 1.4rem;
+  border: 1px solid var(--gold-dark);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg-elevated);
+}
+
+.hero img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--gold-dark);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+  padding: 1rem 1.15rem;
+  margin-bottom: 1.1rem;
+}
+
+.card h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.35rem;
+  color: var(--gold);
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--gold-dark);
+}
+
+.card p {
+  margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.gallery figure {
+  margin: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--gold-dark);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery img,
+.design-wrap img,
+.hero img {
+  transition: transform 0.25s ease;
+}
+
+.gallery img:hover,
+.design-wrap img:hover {
+  transform: scale(1.03);
+}
+
+.gallery figcaption {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding: 0.55rem 0.7rem 0.75rem;
+}
+
+.design-wrap {
+  max-width: 520px;
+  margin: 0 auto 1.4rem;
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-elevated);
+  padding: 0.6rem;
+}
+
+.site-footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--gold-dark);
+  text-align: center;
+  padding: 1.1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .site-nav.open {
+    display: block;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0.55rem;
+    padding: 0.4rem 0 0.7rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .site-nav {
+    display: block !important;
+  }
+}

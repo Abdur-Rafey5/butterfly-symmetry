@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-label="Butterfly with a dashed axis of symmetry down the middle">
+  <rect width="500" height="360" fill="#1C1C1C"/>
+  <ellipse cx="160" cy="180" rx="110" ry="120" fill="#4a2a10" stroke="#D4AF37"/>
+  <ellipse cx="340" cy="180" rx="110" ry="120" fill="#4a2a10" stroke="#D4AF37"/>
+  <ellipse cx="160" cy="180" rx="50" ry="55" fill="#8a4a18"/>
+  <ellipse cx="340" cy="180" rx="50" ry="55" fill="#8a4a18"/>
+  <rect x="242" y="70" width="16" height="220" rx="8" fill="#222"/>
+  <line x1="250" y1="40" x2="250" y2="330" stroke="#F0D77A" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="258" y="58" fill="#F0D77A" font-family="Arial" font-size="16">axis of symmetry</text>
+</svg>

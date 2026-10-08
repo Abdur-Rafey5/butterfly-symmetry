@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="Butterfly with matching left and right wings">
+  <rect width="900" height="420" fill="#121212"/>
+  <ellipse cx="250" cy="210" rx="170" ry="150" fill="#3a1d0c" stroke="#D4AF37" stroke-width="3"/>
+  <ellipse cx="650" cy="210" rx="170" ry="150" fill="#3a1d0c" stroke="#D4AF37" stroke-width="3"/>
+  <ellipse cx="250" cy="210" rx="95" ry="80" fill="#7a3b12"/>
+  <ellipse cx="650" cy="210" rx="95" ry="80" fill="#7a3b12"/>
+  <circle cx="210" cy="160" r="22" fill="#D4AF37"/>
+  <circle cx="690" cy="160" r="22" fill="#D4AF37"/>
+  <circle cx="210" cy="250" r="16" fill="#F0D77A"/>
+  <circle cx="690" cy="250" r="16" fill="#F0D77A"/>
+  <rect x="438" y="90" width="24" height="240" rx="12" fill="#2a2a2a" stroke="#D4AF37"/>
+  <circle cx="450" cy="78" r="16" fill="#1a1a1a" stroke="#D4AF37"/>
+  <line x1="438" y1="70" x2="400" y2="40" stroke="#D4AF37" stroke-width="3"/>
+  <line x1="462" y1="70" x2="500" y2="40" stroke="#D4AF37" stroke-width="3"/>
+</svg>

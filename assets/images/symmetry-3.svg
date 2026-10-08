@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-label="Point (4,3) reflecting to (-4,3) across the y-axis">
+  <rect width="500" height="360" fill="#1C1C1C"/>
+  <line x1="40" y1="300" x2="460" y2="300" stroke="#9C7A1E" stroke-width="2"/>
+  <line x1="250" y1="40" x2="250" y2="320" stroke="#D4AF37" stroke-width="2"/>
+  <text x="258" y="54" fill="#F0D77A" font-family="Arial" font-size="16">y-axis</text>
+  <circle cx="370" cy="150" r="8" fill="#F0D77A"/>
+  <circle cx="130" cy="150" r="8" fill="#D4AF37"/>
+  <text x="382" y="155" fill="#EDEDED" font-family="Arial" font-size="16">(4, 3)</text>
+  <text x="55" y="155" fill="#EDEDED" font-family="Arial" font-size="16">(-4, 3)</text>
+  <line x1="130" y1="150" x2="370" y2="150" stroke="#9C7A1E" stroke-dasharray="5 4"/>
+</svg>
